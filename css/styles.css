@@ -45,6 +45,8 @@ body{
   font-weight: 400;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.2);
+
 }
 @media screen and (min-width:1024px){
   .main__link{
@@ -63,6 +65,7 @@ body{
   place-items: center;
   padding: 1.5em;
   margin-bottom: 25px;
+  box-shadow: 0 5px 0  0 rgba(0,0,0, 0.2);
 }
 .main__input{
   padding: 0.8em;
@@ -102,6 +105,15 @@ body{
   background-color: var(--Green);
   color: var(--white);
   border-radius: 5px;
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width:1024px){
+  .main__button{
+    cursor: pointer;
+  }
+  .main__button:hover{
+    background-color: rgba(56, 204, 140, 0.7);
+  }
 }
 .main__info{
   text-align: center;
